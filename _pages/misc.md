@@ -1,6 +1,6 @@
 ---
 layout: page
-title: misc
+title: Misc
 permalink: /misc/
 ---
 
@@ -16,7 +16,8 @@ permalink: /misc/
 
 ## Services
 
-Reviewer:
+### Reviewer:
+
 * International Conference on Learning Representations (ICLR '25)
 * International Conference on Artificial Intelligence and Statistics (AISTATS '25)
 * Annual Conference on Neural Information Processing Systems (NeurIPS '24)
