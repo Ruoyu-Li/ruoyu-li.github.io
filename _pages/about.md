@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-<p>Assistant Professor</p>
-<p>CSSE, Shenzhen University</p>
+subtitle: Assistant Professor<br>CSSE, Shenzhen University
 
 profile:
   align: right
