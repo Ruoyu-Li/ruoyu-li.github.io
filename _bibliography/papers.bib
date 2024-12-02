@@ -11,7 +11,9 @@
   number={5},
   pages={3854-3869},
   doi={10.1109/TNET.2024.3398778},
-  url = {https://doi.org/10.1109/TNET.2024.3398778}}
+  bibtex_show={true},
+  abstract={Device fingerprinting can be used by Internet Service Providers (ISPs) to identify vulnerable IoT devices for early prevention of threats. However, due to the wide deployment of middleboxes in ISP networks, some important data, e.g., 5-tuples and flow statistics, are often obscured, rendering many existing approaches invalid. It is further challenged by the high-speed traffic of hundreds of terabytes per day in ISP networks. This paper proposes DeviceRadar, an online IoT device fingerprinting framework that achieves accurate, real-time processing in ISPs using programmable switches. We innovatively exploit “key packets” as a basis of fingerprints only using packet sizes and directions, which appear periodically while exhibiting differences across different IoT devices. To utilize them, we propose a packet size embedding model to discover the spatial relationships between packets. Meanwhile, we design an algorithm to extract the “key packets” of each device, and propose an approach that jointly considers the spatial relationships and the key packets to produce a neighboring key packet distribution, which can serve as a feature vector for machine learning models for inference. Last, we design a model transformation method and a feature extraction process to deploy the model on a programmable data plane within its constrained arithmetic operations and memory to achieve line-speed processing. Our experiments show that DeviceRadar can achieve state-of-the-art accuracy across 77 IoT devices with 40 Gbps throughput, and requires only 1.3% of the processing time compared to GPU-accelerated approaches.}
+  }
 
   @ARTICLE{liiotgemini2024,
   author={Li, Ruoyu and Li, Qing and Zou, Qingsong and Zhao, Dan and Zeng, Xiangyi and Huang, Yucheng and Jiang, Yong and Lyu, Feng and Ormazabal, Gaston and Singh, Aman and Schulzrinne, Henning},
@@ -22,7 +24,9 @@
   number={12},
   pages={13240-13257},
   doi={10.1109/TMC.2024.3426600},
-  url={https://doi.org/10.1109/TMC.2024.3426600}}
+  bibtex_show={true},
+  abstract={Synthetic traffic generation can produce sufficient data for model training of various traffic analysis tasks for IoT networks with few costs and ethical concerns. However, with the increasing functionalities of the latest smart devices, existing approaches can neither customize the traffic generation of various device functions nor generate traffic that preserves the sequentiality among packets as the real traffic. To address these limitations, this paper proposes IoTGemini, a novel framework for high-quality IoT traffic generation, which consists of a Device Modeling Module and a Traffic Generation Module. In the Device Modeling Module, we propose a method to obtain the profiles of the device functions and network behaviors, enabling IoTGemini to customize the traffic generation like using a real IoT device. In the Traffic Generation Module, we design a Packet Sequence Generative Adversarial Network (PS-GAN), which can generate synthetic traffic with high fidelity of both per-packet fields and sequential relationships. We set up a real-world IoT testbed to evaluate IoTGemini. The experiment result shows that IoTGemini can achieve great effectiveness in device modeling, high fidelity of synthetic traffic generation, and remarkable usability to downstream tasks on different traffic datasets and downstream traffic analysis tasks.}
+  }
 
 @ARTICLE{liseiot2024,
   author={Li, Ruoyu and Li, Qing and Huang, Yucheng and Zou, Qingsong and Zhao, Dan and Zhang, Zhengxin and Jiang, Yong and Zhu, Fa and Vasilakos, Athanasios V.},
@@ -32,7 +36,10 @@
   volume={19},
   number={},
   pages={7005-7018},
-  doi={10.1109/TIFS.2024.3428856}}
+  doi={10.1109/TIFS.2024.3428856},
+  bibtex_show={true},
+  abstract={Existing IoT Network Anomaly Detection Systems (NADSes) typically treat IoT devices as independent entities and model them by Euclidean space features. These approaches suffer from low accuracies on new attacks (e.g., platform-based attacks and evasion attacks), since they do not fully consider the semantic information including traffic periodicity and device/environment interactions. In this paper, we propose SeIoT, a knowledge graph-based bimodal anomaly detection framework for smart homes. We propose a knowledge graph structure to represent the semantic information of a smart home. First, we propose the Action Fingerprint module, an efficient and effective traffic classification approach to extract the device actions and features required by the knowledge graph. Then, we propose a bimodal anomaly detection framework including interaction-related and time-related detectors to detect the knowledge graph. We propose a feature separation-based heterogeneous graph attention network that can accurately model the interactions among devices and environments, and a method to represent traffic periodicity for the time-related detector. For evaluation, we set up a real-world testbed and evaluate the detection performance of both device-targeted attacks and platform-based attacks. Experiment results show that SeIoT can achieve better detection capability than prior work on both of the attacks.}
+  }
 
 @ARTICLE{liadriot2022,
   author={Li, Ruoyu and Li, Qing and Zhou, Jianer and Jiang, Yong},
@@ -42,7 +49,10 @@
   volume={9},
   number={13},
   pages={10576-10587},
-  doi={10.1109/JIOT.2021.3122148}}
+  doi={10.1109/JIOT.2021.3122148},
+  bibtex_show={true},
+  abstract={Internet of Things (IoT) has entered a stage of rapid development and increasing deployment. Meanwhile, these low-power devices typically cannot support complex security mechanisms and, thus, are highly susceptible to malware. This article proposes ADRIoT, an anomaly detection framework for IoT networks, which leverages edge computing to uncover potential threats. An edge is empowered with an anomaly detection module, which consists of a traffic capturer, a traffic preprocessor, and a collection of anomaly detectors dedicated to each type of device. Each detector is constructed by an LSTM autoencoder in an unsupervised manner that requires no labeled attack data and is able to handle emerging zero-day attacks. When a device connects to the edge, the edge will fetch the corresponding detector from the cloud and execute it locally. Another problem is the resource constraint of a single edge device like a home router hinders the deployment of such a detection module. To mitigate this problem, we design a multiedge collaborative mechanism that integrates the resource of multiple edges in a local network to increase the overall load capacity. The evaluation demonstrates that ADRIoT can detect various IoT-based attacks effectively and efficiently, showing that ADRIoT can feasibly help build a more secure IoT environment.}
+  }
 
 @ARTICLE{xieintelligent2024,
   author={Xie, Guorui and Li, Qing and Cui, Chupeng and Li, Ruoyu and Ma, Lianbo and Qi, Zhuyun and Jiang, Yong},
@@ -52,10 +62,13 @@
   volume={},
   number={},
   pages={1-17},
-  doi={10.1109/TDSC.2024.3402955}}
+  doi={10.1109/TDSC.2024.3402955},
+  bibtex_show={true},
+  abstract={Internet of Things (IoT) has entered a stage of rapid development and increasing deployment. Meanwhile, these low-power devices typically cannot support complex security mechanisms and, thus, are highly susceptible to malware. This article proposes ADRIoT, an anomaly detection framework for IoT networks, which leverages edge computing to uncover potential threats. An edge is empowered with an anomaly detection module, which consists of a traffic capturer, a traffic preprocessor, and a collection of anomaly detectors dedicated to each type of device. Each detector is constructed by an LSTM autoencoder in an unsupervised manner that requires no labeled attack data and is able to handle emerging zero-day attacks. When a device connects to the edge, the edge will fetch the corresponding detector from the cloud and execute it locally. Another problem is the resource constraint of a single edge device like a home router hinders the deployment of such a detection module. To mitigate this problem, we design a multiedge collaborative mechanism that integrates the resource of multiple edges in a local network to increase the overall load capacity. The evaluation demonstrates that ADRIoT can detect various IoT-based attacks effectively and efficiently, showing that ADRIoT can feasibly help build a more secure IoT environment.}
+  }
 
 @article{liacomprehensive2023,
-title = {A comprehensive survey on DDoS defense systems: New trends and challenges},
+title = {A Comprehensive Survey on DDoS Defense Systems: New Trends and Challenges},
 journal = {Computer Networks},
 volume = {233},
 pages = {109895},
@@ -64,38 +77,50 @@ issn = {1389-1286},
 doi = {https://doi.org/10.1016/j.comnet.2023.109895},
 url = {https://www.sciencedirect.com/science/article/pii/S1389128623003407},
 author = {Qing Li and He Huang and Ruoyu Li and Jianhui Lv and Zhenhui Yuan and Lianbo Ma and Yi Han and Yong Jiang},
+bibtex_show={true},
 abstract = {In the past ten years, the source of DDoS has migrated to botnets composed of IoT devices. The scale of DDoS attacks increases dramatically with the number of IoT devices.New variants of DDoS attacks using different system vulnerabilities emerge in an endless stream. In response to this situation, researchers have made significant contributions to the field of DDoS defense by applying modern programmable network technology and network-level resource scheduling management technology. However, the existing review articles need more research on these technologies. After investigating the development trend of DDoS attacks in recent years and the new challenges caused by them, this paper classifies the new technologies that have emerged in the field of DDoS defense in the past ten years. Among them, the collaboration between domains and inter-domain resource scheduling is one of the critical challenges in designing a large-scale distributed DDoS cooperative defense system. In addition, modern programmable network technology has dramatically expanded network systems’ functional diversity and deployment flexibility. We will discuss building a defense system based on programmable networks and focus on SOTA defense solutions based on programmable switches. Finally, developing DDoS defense mechanisms with broad-spectrum detection capabilities, robustness against adversarial attacks, and cost-effective and collaborative DDoS defense mechanisms for establishing the Internet are future research directions in network security.}
 }
 
 # conference paper
 
-@inproceedings{liinterpreting2023,
+@inproceedings{zhangdissect2024,
  author = {Zhang*, Yu and Li*, Ruoyu and Wu, Nengwu and Li, Qing and Lin, Xinhan and Hu, Yang and Li, Tao and Jiang, Yong},
- booktitle = {Advances in Neural Information Processing Systems},
+ booktitle = {Proceedings of Advances in Neural Information Processing Systems (NeurIPS 24)},
  pages = {62224--62243},
  title = {Dissect Black Box: Interpreting for Rule-Based Explanations in Unsupervised Anomaly Detection},
- url = {https://openreview.net/pdf?id=h6o6qXLmHZ},
- year = {2023}
+ pdf = {https://openreview.net/pdf?id=h6o6qXLmHZ},
+ year = {2024},
+ location = {Vancouver, Canada},
+ month = Dec,
+ bibtex_show={true},
+ abstract = {In high-stakes sectors such as network security, IoT security, accurately distinguishing between normal and anomalous data is critical due to the significant implications for operational success and safety in decision-making. The complexity is exacerbated by the presence of unlabeled data and the opaque nature of black-box anomaly detection models, which obscure the rationale behind their predictions. In this paper, we present a novel method to interpret the decision-making processes of these models, which are essential for detecting malicious activities without labeled attack data. We put forward the Segmentation Clustering Decision Tree (SCD-Tree), designed to dissect and understand the structure of normal data distributions. The SCD-Tree integrates predictions from the anomaly detection model into its splitting criteria, enhancing the clustering process with the model's insights into anomalies. To further refine these segments, the Gaussian Boundary Delineation (GBD) algorithm is employed to define boundaries within each segmented distribution, effectively delineating normal from anomalous data points. At this point, this approach addresses the curse of dimensionality by segmenting high-dimensional data and ensures resilience to data drift and perturbations through flexible boundary fitting. We transform the intricate operations of anomaly detection into an interpretable rule's format, constructing a comprehensive set of rules for understanding. Our method's evaluation on diverse datasets and models demonstrates superior explanation accuracy, fidelity, and robustness over existing method, proving its efficacy in environments where interpretability is paramount.}
 }
 
 @INPROCEEDINGS{ligenos2024,
   author={Li, Ruoyu and Li, Qing and Zhang, Yu and Zhao, Dan and Xiao, Xi and Jiang, Yong},
-  booktitle={IEEE INFOCOM 2024 - IEEE Conference on Computer Communications}, 
+  booktitle={Proceedings of IEEE Conference on Computer Communications (INFOCOM 24)}, 
   title={Genos: General In-Network Unsupervised Intrusion Detection by Rule Extraction}, 
   year={2024},
-  volume={},
-  number={},
   pages={561-570},
-  doi={10.1109/INFOCOM52122.2024.10621157}}
+  doi={10.1109/INFOCOM52122.2024.10621157}},
+  location = {Vancouver, Canada},
+  month = May,
+  bibtex_show={true},
+  abstract = {Anomaly-based network intrusion detection systems (A-NIDS) use unsupervised models to detect unforeseen attacks. However, existing A-NIDS solutions suffer from low throughput, lack of interpretability, and high maintenance costs. Recent in-network intelligence (INI) exploits programmable switches to offer line-rate deployment of NIDS. Nevertheless, current in-network NIDS are either model-specific or only apply to supervised models. In this paper, we propose Genos, a general in-network framework for unsupervised A-NIDS by rule extraction, which consists of a Model Compiler, a Model Interpreter, and a Model Debugger. Specifically, observing benign data are multi-modal and usually located in multiple subspaces in the feature space, we utilize a divide-and-conquer approach for model-agnostic rule extraction. In the Model Compiler, we first propose a tree-based clustering algorithm to partition the feature space into subspaces, then design a decision boundary estimation mechanism to approximate the source model in each subspace. The Model Interpreter interprets predictions by important attributes to aid network operators in understanding the predictions. The Model Debugger conducts incremental updating to rectify errors by only fine-tuning rules on affected subspaces, thus reducing maintenance costs. We implement a prototype using physical hardware, and experiments demonstrate its superior performance of 100 Gbps throughput, great interpretability, and trivial updating overhead.}
+  }
 
 @inproceedings{liinterpreting2023,
  author = {Li, Ruoyu and Li, Qing and Zhang, Yu and Zhao, Dan and Jiang, Yong and Yang, Yong},
- booktitle = {Advances in Neural Information Processing Systems},
+ booktitle = {Proceedings of Advances in Neural Information Processing Systems (NeurIPS 23)},
  pages = {62224--62243},
  title = {Interpreting Unsupervised Anomaly Detection in Security via Rule Extraction},
- url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/c43b987f23fd5ea840df2b2be426315c-Paper-Conference.pdf},
+ pdf = {https://papers.nips.cc/paper_files/paper/2023/file/c43b987f23fd5ea840df2b2be426315c-Paper-Conference.pdf},
  volume = {36},
- year = {2023}
+ year = {2023},
+ location = {New Orleans, LA, USA},
+ month = Dec,
+ bibtex_show={true},
+ abstract = {Many security applications require unsupervised anomaly detection, as malicious data are extremely rare and often only unlabeled normal data are available for training (i.e., zero-positive). However, security operators are concerned about the high stakes of trusting black-box models due to their lack of interpretability. In this paper, we propose a post-hoc method to globally explain a black-box unsupervised anomaly detection model via rule extraction.First, we propose the concept of distribution decomposition rules that decompose the complex distribution of normal data into multiple compositional distributions. To find such rules, we design an unsupervised Interior Clustering Tree that incorporates the model prediction into the splitting criteria. Then, we propose the Compositional Boundary Exploration (CBE) algorithm to obtain the boundary inference rules that estimate the decision boundary of the original model on each compositional distribution. By merging these two types of rules into a rule set, we can present the inferential process of the unsupervised black-box model in a human-understandable way, and build a surrogate rule-based model for online deployment at the same time. We conduct comprehensive experiments on the explanation of four distinct unsupervised anomaly detection models on various real-world datasets. The evaluation shows that our method outperforms existing methods in terms of diverse metrics including fidelity, correctness and robustness.}
 }
 
 @InProceedings{liiotensemble2022,
@@ -105,94 +130,82 @@ and Huang, Yucheng
 and Zhang, Wenbin
 and Zhu, Peican
 and Jiang, Yong",
-editor="Atluri, Vijayalakshmi
-and Di Pietro, Roberto
-and Jensen, Christian D.
-and Meng, Weizhi",
 title="IoTEnsemble: Detection of Botnet Attacks on Internet of Things",
-booktitle="Computer Security -- ESORICS 2022",
+booktitle="Proceedings of the 27th European Symposium on Research in Computer Security (ESORICS 22)",
 year="2022",
 pages="569--588",
+bibtex_show={true},
 abstract="As the Internet of Things (IoT) plays an increasingly important role in real life, the concern about IoT malware and botnet attacks is considerably growing. Meanwhile, with new techniques such as edge computing and artificial intelligence applied to IoT networks, these devices nowadays become more functional than ever before, which challenges many existing network anomaly detection systems due to the lack of generalization ability to profile diverse activities.",
-isbn="978-3-031-17146-8"
+location="Copenhagen, Denmark",
+month = Sep
 }
 
 @INPROCEEDINGS {cuiproteus2024,
 author = { Cui, Chupeng and Li, Qing and Xie, Guorui and Li, Ruoyu and Zhao, Dan and Yuan, Zhenhui and Jiang, Yong },
-booktitle = { 2024 IEEE 32nd International Conference on Network Protocols (ICNP) },
+booktitle = { Proceedings of the 32nd IEEE International Conference on Network Protocols (ICNP 24) },
 title = {{ Proteus: A Difficulty-aware Deep Learning Framework for Real-time Malicious Traffic Detection }},
 year = {2024},
-volume = {},
-ISSN = {},
-pages = {},
-abstract = { Decision trees (DT) have been used for high-speed networking classification on programmable switches. Most DT solutions, however, are static and cannot be deployed once the switch resource changes. In this paper, we propose Dryad to fast reprogram tree models when resource budgets change. In Dryad, we first develop a large and accurate “one-training-for-all“ DT (ODT) that can be quickly resized without computational retraining. ODTs are deployed in switches using a progressive search algorithm that searches the adaptations according to their resources. To achieve high accuracy and low packet latency, the adaptation leverages 1) innovative hard and soft pruning methods to compress the ODT rapidly with minimal performance loss; and 2) P4 scaling operations of match-action table arrangement and joint range-ternary match, which allow the switch to accommodate a larger (i.e., more accurate) ODT. Finally, an ODTCompiler is proposed to automatically convert the adapted ODT into a P4 program and then install it. Experimental results on three commodity switches under different resource scenarios show that Dryad achieves a higher classification F1-score (3.78 % higher), and completes the adaptation 161 × faster than other solutions. },
+abstract = {Deep learning (DL) has been recently used for malicious traffic detection. However, DL models are often faced with a dilemma between model size and performance: larger models have better accuracy, but suffer from high detection latency, which severely impacts realtime traffic performance, while lightweight models have low detection latencies, but sacrifice accuracy. In this paper, we introduce Proteus, a swift and precise attack detection framework that adaptively adjusts DL models in real-time based on sample detection difficulty. To address diverse detection difficulties in traffic data, we devise a Double Dynamic Convolution Network (DDCN) with two pivotal modules: the Dynamic Feature Campaign (DFC) and the Tailor Module (TM). DFC enables the model to discern and accentuate the most influential features, while TM autonomously gauges sample difficulty, cropping the overall model. We further design an auxiliary detection module to streamline the detection, especially for network devices like routers lacking GPUs but equipped with multiple CPU cores. Experiments on different network devices show that Proteus completes the detection of each flow within 0.6ms, and achieves 99.34% detection accuracy, outperforming other solutions.},
 doi = {},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
+bibtex_show={true},
+location = {Charleroi, Belgium},
 month =Oct}
 
 @inproceedings{xiaomake2024,
 author = {Xiao, Jingyu and Xu, Zhiyao and Zou, Qingsong and Li, Qing and Zhao, Dan and Fang, Dong and Li, Ruoyu and Tang, Wenxin and Li, Kang and Zuo, Xudong and Hu, Penghui and Jiang, Yong and Weng, Zixuan and Lyu, Michael R.},
 title = {Make Your Home Safe: Time-aware Unsupervised User Behavior Anomaly Detection in Smart Homes via Loss-guided Mask},
 year = {2024},
-isbn = {9798400704901},
-url = {https://doi.org/10.1145/3637528.3671708},
 doi = {10.1145/3637528.3671708},
 abstract = {Smart homes, powered by the Internet of Things, offer great convenience but also pose security concerns due to abnormal behaviors, such as improper operations of users and potential attacks from malicious attackers. Several behavior modeling methods have been proposed to identify abnormal behaviors and mitigate potential risks. However, their performance often falls short because they do not effectively learn less frequent behaviors, consider temporal context, or account for the impact of noise in human behaviors. In this paper, we propose SmartGuard, an autoencoder-based unsupervised user behavior anomaly detection framework. First, we design a Loss-guided Dynamic Mask Strategy (LDMS) to encourage the model to learn less frequent behaviors, which are often overlooked during learning. Second, we propose a Three-level Time-aware Position Embedding (TTPE) to incorporate temporal information into positional embedding to detect temporal context anomaly. Third, we propose a Noise-aware Weighted Reconstruction Loss (NWRL) that assigns different weights for routine behaviors and noise behaviors to mitigate the interference of noise behaviors during inference. Comprehensive experiments demonstrate that SmartGuard consistently outperforms state-of-the-art baselines and also offers highly interpretable results.},
-booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 24)},
 pages = {3551–3562},
 numpages = {12},
-keywords = {anomaly detection, smart homes, transformer, user behavior modeling},
+bibtex_show={true},
 location = {Barcelona, Spain},
-series = {KDD '24}
+month =Oct
 }
 
 @inproceedings {yutaohoruseye2023,
 author = {Yutao Dong and Qing Li and Kaidong Wu and Ruoyu Li and Dan Zhao and Gareth Tyson and Junkun Peng and Yong Jiang and Shutao Xia and Mingwei Xu},
 title = {{HorusEye}: A Realtime {IoT} Malicious Traffic Detection Framework using Programmable Switches},
-booktitle = {32nd USENIX Security Symposium (USENIX Security 23)},
+booktitle = {Proceedings of the 32nd USENIX Security Symposium (USENIX Security 23)},
 year = {2023},
-isbn = {978-1-939133-37-3},
-address = {Anaheim, CA},
+location = {Anaheim, CA, USA},
 pages = {571--588},
-url = {https://www.usenix.org/conference/usenixsecurity23/presentation/dong-yutao},
-publisher = {USENIX Association},
-month = aug
+pdf = {https://www.usenix.org/conference/usenixsecurity23/presentation/dong-yutao},
+slides = {https://www.usenix.org/system/files/sec23_slides_dong-yutao.pdf},
+bibtex_show={true},
+month = aug,
+abstract = {The ever-growing volume of IoT traffic brings challenges to IoT anomaly detection systems. Existing anomaly detection systems perform all traffic detection on the control plane, which struggles to scale to the growing rates of traffic. In this paper, we propose HorusEye, a high throughput and accurate two-stage anomaly detection framework. In the first stage, preliminary burst-level anomaly detection is implemented on the data plane to exploit its high-throughput capability (e.g., 100Gbps). We design an algorithm that converts a trained iForest model into white list matching rules, and implement the first unsupervised model that can detect unseen attacks on the data plane. The suspicious traffic is then reported to the control plane for further investigation. To reduce the false-positive rate, the control plane carries out the second stage, where more thorough anomaly detection is performed over the reported suspicious traffic using flow-level features and a deep detection model. We implement a prototype of HorusEye and evaluate its performance through a comprehensive set of experiments. The experimental results illustrate that the data plane can detect 99% of the anomalies and offload 76% of the traffic from the control plane. Compared with the state-of-the-art schemes, our framework has superior throughput and detection performance.}
 }
 
 @article{zouiotbeholder2023,
 author = {Zou, Qingsong and Li, Qing and Li, Ruoyu and Huang, Yucheng and Tyson, Gareth and Xiao, Jingyu and Jiang, Yong},
 title = {IoTBeholder: A Privacy Snooping Attack on User Habitual Behaviors from Smart Home Wi-Fi Traffic},
 year = {2023},
-issue_date = {March 2023},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
+location = {New York, NY, USA},
 volume = {7},
 number = {1},
-url = {https://doi.org/10.1145/3580890},
 doi = {10.1145/3580890},
 abstract = {With the deployment of a growing number of smart home IoT devices, privacy leakage has become a growing concern. Prior work on privacy-invasive device localization, classification, and activity identification have proven the existence of various privacy leakage risks in smart home environments. However, they only demonstrate limited threats in real world due to many impractical assumptions, such as having privileged access to the user's home network. In this paper, we identify a new end-to-end attack surface using IoTBeholder, a system that performs device localization, classification, and user activity identification. IoTBeholder can be easily run and replicated on commercial off-the-shelf (COTS) devices such as mobile phones or personal computers, enabling attackers to infer user's habitual behaviors from smart home Wi-Fi traffic alone. We set up a testbed with 23 IoT devices for evaluation in the real world. The result shows that IoTBeholder has good device classification and device activity identification performance. In addition, IoTBeholder can infer the users' habitual behaviors and automation rules with high accuracy and interpretability. It can even accurately predict the users' future actions, highlighting a significant threat to user privacy that IoT vendors and users should highly concern.},
-journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT/UbiComp 23)},
+bibtex_show={true},
 month = mar,
 articleno = {43},
 numpages = {26},
-keywords = {Internet-of-Things, Privacy, Smart Home}
 }
 
 @INPROCEEDINGS {xiedryad2023,
 author = { Xie, Guorui and Li, Qing and Lin, Jiaye and Antichi, Gianni and Zhao, Dan and Yuan, Zhenhui and Li, Ruoyu and Jiang, Yong },
-booktitle = { 2023 IEEE 31st International Conference on Network Protocols (ICNP) },
+booktitle = { Proceedings of the 31st IEEE International Conference on Network Protocols (ICNP 23) },
 title = {{ Dryad: Deploying Adaptive Trees on Programmable Switches for Networking Classification }},
 year = {2023},
 volume = {},
-ISSN = {},
 pages = {1-11},
 abstract = { Decision trees (DT) have been used for high-speed networking classification on programmable switches. Most DT solutions, however, are static and cannot be deployed once the switch resource changes. In this paper, we propose Dryad to fast reprogram tree models when resource budgets change. In Dryad, we first develop a large and accurate “one-training-for-all“ DT (ODT) that can be quickly resized without computational retraining. ODTs are deployed in switches using a progressive search algorithm that searches the adaptations according to their resources. To achieve high accuracy and low packet latency, the adaptation leverages 1) innovative hard and soft pruning methods to compress the ODT rapidly with minimal performance loss; and 2) P4 scaling operations of match-action table arrangement and joint range-ternary match, which allow the switch to accommodate a larger (i.e., more accurate) ODT. Finally, an ODTCompiler is proposed to automatically convert the adapted ODT into a P4 program and then install it. Experimental results on three commodity switches under different resource scenarios show that Dryad achieves a higher classification F1-score (3.78 % higher), and completes the adaptation 161 × faster than other solutions. },
-keywords = {Adaptation models;Protocols;Adaptive systems;High-speed networks;Computational modeling;Decision trees},
 doi = {10.1109/ICNP59255.2023.10355629},
-url = {https://doi.ieeecomputersociety.org/10.1109/ICNP59255.2023.10355629},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
+bibtex_show={true},
+location = {Los Alamitos, CA, USA},
 month =Oct}
 
 
@@ -200,41 +213,45 @@ month =Oct}
 author = {Xiao, Jingyu and Zou, Qingsong and Li, Qing and Zhao, Dan and Li, Kang and Weng, Zixuan and Li, Ruoyu and Jiang, Yong},
 title = {I Know Your Intent: Graph-enhanced Intent-aware User Device Interaction Prediction via Contrastive Learning},
 year = {2023},
-issue_date = {September 2023},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
+location = {New York, NY, USA},
 volume = {7},
 number = {3},
-url = {https://doi.org/10.1145/3610906},
 doi = {10.1145/3610906},
 abstract = {With the booming of smart home market, intelligent Internet of Things (IoT) devices have been increasingly involved in home life. To improve the user experience of smart homes, some prior works have explored how to use machine learning for predicting interactions between users and devices. However, the existing solutions have inferior User Device Interaction (UDI) prediction accuracy, as they ignore three key factors: routine, intent and multi-level periodicity of human behaviors. In this paper, we present SmartUDI, a novel accurate UDI prediction approach for smart homes. First, we propose a Message-Passing-based Routine Extraction (MPRE) algorithm to mine routine behaviors, then the contrastive loss is applied to narrow representations among behaviors from the same routines and alienate representations among behaviors from different routines. Second, we propose an Intent-aware Capsule Graph Attention Network (ICGAT) to encode multiple intents of users while considering complex transitions between different behaviors. Third, we design a Cluster-based Historical Attention Mechanism (CHAM) to capture the multi-level periodicity by aggregating the current sequence and the semantically nearest historical sequence representations through the attention mechanism. SmartUDI can be seamlessly deployed on cloud infrastructures of IoT device vendors and edge nodes, enabling the delivery of personalized device service recommendations to users. Comprehensive experiments on four real-world datasets show that SmartUDI consistently outperforms the state-of-the-art baselines with more accurate and highly interpretable results.},
-journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT/UbiComp 23)},
+bibtex_show={true},
 month = sep,
 articleno = {136},
 numpages = {28},
-keywords = {Contrastive Learning, Graph Neural Networks, Human Device Interaction, Smart Home}
 }
 
 @INPROCEEDINGS{singhhanzo2018,
   author={Singh, Aman and Murali, Shashank and Rieger, Lalka and Li, Ruoyu and Hommes, Stefan and State, Radu and Ormazabal, Gaston and Schulzrinne, Henning},
-  booktitle={2018 Principles, Systems and Applications of IP Telecommunications (IPTComm)}, 
+  booktitle={Proceedings of the 11th Principles, Systems and Applications of IP Telecommunications (IPTComm 18)}, 
   title={HANZO: Collaborative Network Defense for Connected Things}, 
   year={2018},
   volume={},
   number={},
   pages={1-8},
-  keywords={Multiuser detection;Authentication;IP networks;Data models;Grippers;Maintenance engineering},
-  doi={10.1109/IPTCOMM.2018.8567639}}
+  doi={10.1109/IPTCOMM.2018.8567639},
+  bibtex_show={true},
+  location={Chicago, Illinois, USA},
+  month=Oct,
+  abstract={The IoT devices are typically shipped with default insecure configurations and vulnerable software stacks rendering host networks exposed to attacks, especially small networks with no administration. We present a network system model for device configuration and operations management. Using this model, we design and implement an autonomous network management platform with device classification and traffic characterization functions integrated in a network gateway. We evaluate the system using a connected home testbed that combines IoT and general-purpose devices.}
+  }
 
 @INPROCEEDINGS{wusmartretro2018,
   author={Wu, Bo and Li, Qi and Xu, Ke and Li, Ruoyu and Liu, Zhuotao},
-  booktitle={2018 IEEE 15th International Conference on Mobile Ad Hoc and Sensor Systems (MASS)}, 
+  booktitle={Proceedings of the 15th IEEE International Conference on Mobile Ad Hoc and Sensor Systems (MASS 18)}, 
   title={SmartRetro: Blockchain-Based Incentives for Distributed IoT Retrospective Detection}, 
   year={2018},
   volume={},
   number={},
   pages={308-316},
-  keywords={Security;Detectors;Performance evaluation;Internet of Things;Blockchain;Incentives;Retrospective Detection},
   doi={10.1109/MASS.2018.00053},
-  bibtex_show={true}}
+  bibtex_show={true},
+  location={Chengdu, China},
+  month=Oct,
+  abstract={Internet of Things (IoT) has already been in the period of rapid development and widespread deployment, while it is still vulnerable to various malicious attacks. Security detection before system installation is not enough to ensure that IoT devices are always secure, because newly emerging vulnerabilities can still be exploited to launch attacks. To address this issue, retrospective detection is often required to trace the security status of IoT systems. Unfortunately, existing centralized detection mechanisms cannot easily provide a comprehensive security analysis. In particular, consumers cannot automatically receive security notification whenever a new vulnerability is uncovered. In this paper, we propose a novel blockchain-powered incentive platform, called SmartRetro, that can incentivize and attract more distributed detectors to participate in retrospective vulnerability detection and contribute their detection results. Leveraging smart contracts, consumers in SmartRetro receive automatic security feedback about their installed IoT systems. We perform the security and theoretical analysis to demonstrate that SmartRetro achieves our desirable security goals.We further implement SmartRetro prototype on Ethereum to evaluate its performance. Our experimental results show SmartRetro is technically feasible and economically beneficial.},
+  }
 
