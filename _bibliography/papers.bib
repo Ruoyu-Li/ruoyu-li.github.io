@@ -54,7 +54,7 @@
   pages={1-17},
   doi={10.1109/TDSC.2024.3402955}}
 
-@article{LI2023109895,
+@article{liacomprehensive2023,
 title = {A comprehensive survey on DDoS defense systems: New trends and challenges},
 journal = {Computer Networks},
 volume = {233},
@@ -64,9 +64,62 @@ issn = {1389-1286},
 doi = {https://doi.org/10.1016/j.comnet.2023.109895},
 url = {https://www.sciencedirect.com/science/article/pii/S1389128623003407},
 author = {Qing Li and He Huang and Ruoyu Li and Jianhui Lv and Zhenhui Yuan and Lianbo Ma and Yi Han and Yong Jiang},
-keywords = {Distributed Denial of Service (DDoS), DDoS defense system, Resource scheduling, SDN/NFV, Programmable switch},
 abstract = {In the past ten years, the source of DDoS has migrated to botnets composed of IoT devices. The scale of DDoS attacks increases dramatically with the number of IoT devices.New variants of DDoS attacks using different system vulnerabilities emerge in an endless stream. In response to this situation, researchers have made significant contributions to the field of DDoS defense by applying modern programmable network technology and network-level resource scheduling management technology. However, the existing review articles need more research on these technologies. After investigating the development trend of DDoS attacks in recent years and the new challenges caused by them, this paper classifies the new technologies that have emerged in the field of DDoS defense in the past ten years. Among them, the collaboration between domains and inter-domain resource scheduling is one of the critical challenges in designing a large-scale distributed DDoS cooperative defense system. In addition, modern programmable network technology has dramatically expanded network systems’ functional diversity and deployment flexibility. We will discuss building a defense system based on programmable networks and focus on SOTA defense solutions based on programmable switches. Finally, developing DDoS defense mechanisms with broad-spectrum detection capabilities, robustness against adversarial attacks, and cost-effective and collaborative DDoS defense mechanisms for establishing the Internet are future research directions in network security.}
 }
 
-
 # conference paper
+
+@INPROCEEDINGS{ligenos2024,
+  author={Li, Ruoyu and Li, Qing and Zhang, Yu and Zhao, Dan and Xiao, Xi and Jiang, Yong},
+  booktitle={IEEE INFOCOM 2024 - IEEE Conference on Computer Communications}, 
+  title={Genos: General In-Network Unsupervised Intrusion Detection by Rule Extraction}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={561-570},
+  doi={10.1109/INFOCOM52122.2024.10621157}}
+
+@inproceedings{liinterpreting2023,
+ author = {Li, Ruoyu and Li, Qing and Zhang, Yu and Zhao, Dan and Jiang, Yong and Yang, Yong},
+ booktitle = {Advances in Neural Information Processing Systems},
+ pages = {62224--62243},
+ title = {Interpreting Unsupervised Anomaly Detection in Security via Rule Extraction},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/c43b987f23fd5ea840df2b2be426315c-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023}
+}
+
+@InProceedings{liiotensemble2022,
+author="Li, Ruoyu
+and Li, Qing
+and Huang, Yucheng
+and Zhang, Wenbin
+and Zhu, Peican
+and Jiang, Yong",
+editor="Atluri, Vijayalakshmi
+and Di Pietro, Roberto
+and Jensen, Christian D.
+and Meng, Weizhi",
+title="IoTEnsemble: Detection of Botnet Attacks on Internet of Things",
+booktitle="Computer Security -- ESORICS 2022",
+year="2022",
+pages="569--588",
+abstract="As the Internet of Things (IoT) plays an increasingly important role in real life, the concern about IoT malware and botnet attacks is considerably growing. Meanwhile, with new techniques such as edge computing and artificial intelligence applied to IoT networks, these devices nowadays become more functional than ever before, which challenges many existing network anomaly detection systems due to the lack of generalization ability to profile diverse activities.",
+isbn="978-3-031-17146-8"
+}
+
+@inproceedings{xiaomake2024,
+author = {Xiao, Jingyu and Xu, Zhiyao and Zou, Qingsong and Li, Qing and Zhao, Dan and Fang, Dong and Li, Ruoyu and Tang, Wenxin and Li, Kang and Zuo, Xudong and Hu, Penghui and Jiang, Yong and Weng, Zixuan and Lyu, Michael R.},
+title = {Make Your Home Safe: Time-aware Unsupervised User Behavior Anomaly Detection in Smart Homes via Loss-guided Mask},
+year = {2024},
+isbn = {9798400704901},
+url = {https://doi.org/10.1145/3637528.3671708},
+doi = {10.1145/3637528.3671708},
+abstract = {Smart homes, powered by the Internet of Things, offer great convenience but also pose security concerns due to abnormal behaviors, such as improper operations of users and potential attacks from malicious attackers. Several behavior modeling methods have been proposed to identify abnormal behaviors and mitigate potential risks. However, their performance often falls short because they do not effectively learn less frequent behaviors, consider temporal context, or account for the impact of noise in human behaviors. In this paper, we propose SmartGuard, an autoencoder-based unsupervised user behavior anomaly detection framework. First, we design a Loss-guided Dynamic Mask Strategy (LDMS) to encourage the model to learn less frequent behaviors, which are often overlooked during learning. Second, we propose a Three-level Time-aware Position Embedding (TTPE) to incorporate temporal information into positional embedding to detect temporal context anomaly. Third, we propose a Noise-aware Weighted Reconstruction Loss (NWRL) that assigns different weights for routine behaviors and noise behaviors to mitigate the interference of noise behaviors during inference. Comprehensive experiments demonstrate that SmartGuard consistently outperforms state-of-the-art baselines and also offers highly interpretable results.},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {3551–3562},
+numpages = {12},
+keywords = {anomaly detection, smart homes, transformer, user behavior modeling},
+location = {Barcelona, Spain},
+series = {KDD '24}
+}
