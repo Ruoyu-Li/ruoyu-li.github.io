@@ -108,6 +108,20 @@ abstract="As the Internet of Things (IoT) plays an increasingly important role i
 isbn="978-3-031-17146-8"
 }
 
+@INPROCEEDINGS {cuiproteus2024,
+author = { Cui, Chupeng and Li, Qing and Xie, Guorui and Li, Ruoyu and Zhao, Dan and Yuan, Zhenhui and Jiang, Yong },
+booktitle = { 2024 IEEE 32nd International Conference on Network Protocols (ICNP) },
+title = {{ Proteus: A Difficulty-aware Deep Learning Framework for Real-time Malicious Traffic Detection }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {},
+abstract = { Decision trees (DT) have been used for high-speed networking classification on programmable switches. Most DT solutions, however, are static and cannot be deployed once the switch resource changes. In this paper, we propose Dryad to fast reprogram tree models when resource budgets change. In Dryad, we first develop a large and accurate “one-training-for-all“ DT (ODT) that can be quickly resized without computational retraining. ODTs are deployed in switches using a progressive search algorithm that searches the adaptations according to their resources. To achieve high accuracy and low packet latency, the adaptation leverages 1) innovative hard and soft pruning methods to compress the ODT rapidly with minimal performance loss; and 2) P4 scaling operations of match-action table arrangement and joint range-ternary match, which allow the switch to accommodate a larger (i.e., more accurate) ODT. Finally, an ODTCompiler is proposed to automatically convert the adapted ODT into a P4 program and then install it. Experimental results on three commodity switches under different resource scenarios show that Dryad achieves a higher classification F1-score (3.78 % higher), and completes the adaptation 161 × faster than other solutions. },
+doi = {},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Oct}
+
 @inproceedings{xiaomake2024,
 author = {Xiao, Jingyu and Xu, Zhiyao and Zou, Qingsong and Li, Qing and Zhao, Dan and Fang, Dong and Li, Ruoyu and Tang, Wenxin and Li, Kang and Zuo, Xudong and Hu, Penghui and Jiang, Yong and Weng, Zixuan and Lyu, Michael R.},
 title = {Make Your Home Safe: Time-aware Unsupervised User Behavior Anomaly Detection in Smart Homes via Loss-guided Mask},
@@ -123,3 +137,72 @@ keywords = {anomaly detection, smart homes, transformer, user behavior modeling}
 location = {Barcelona, Spain},
 series = {KDD '24}
 }
+
+@inproceedings {yutaohoruseye2023,
+author = {Yutao Dong and Qing Li and Kaidong Wu and Ruoyu Li and Dan Zhao and Gareth Tyson and Junkun Peng and Yong Jiang and Shutao Xia and Mingwei Xu},
+title = {{HorusEye}: A Realtime {IoT} Malicious Traffic Detection Framework using Programmable Switches},
+booktitle = {32nd USENIX Security Symposium (USENIX Security 23)},
+year = {2023},
+isbn = {978-1-939133-37-3},
+address = {Anaheim, CA},
+pages = {571--588},
+url = {https://www.usenix.org/conference/usenixsecurity23/presentation/dong-yutao},
+publisher = {USENIX Association},
+month = aug
+}
+
+@article{zouiotbeholder2023,
+author = {Zou, Qingsong and Li, Qing and Li, Ruoyu and Huang, Yucheng and Tyson, Gareth and Xiao, Jingyu and Jiang, Yong},
+title = {IoTBeholder: A Privacy Snooping Attack on User Habitual Behaviors from Smart Home Wi-Fi Traffic},
+year = {2023},
+issue_date = {March 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {1},
+url = {https://doi.org/10.1145/3580890},
+doi = {10.1145/3580890},
+abstract = {With the deployment of a growing number of smart home IoT devices, privacy leakage has become a growing concern. Prior work on privacy-invasive device localization, classification, and activity identification have proven the existence of various privacy leakage risks in smart home environments. However, they only demonstrate limited threats in real world due to many impractical assumptions, such as having privileged access to the user's home network. In this paper, we identify a new end-to-end attack surface using IoTBeholder, a system that performs device localization, classification, and user activity identification. IoTBeholder can be easily run and replicated on commercial off-the-shelf (COTS) devices such as mobile phones or personal computers, enabling attackers to infer user's habitual behaviors from smart home Wi-Fi traffic alone. We set up a testbed with 23 IoT devices for evaluation in the real world. The result shows that IoTBeholder has good device classification and device activity identification performance. In addition, IoTBeholder can infer the users' habitual behaviors and automation rules with high accuracy and interpretability. It can even accurately predict the users' future actions, highlighting a significant threat to user privacy that IoT vendors and users should highly concern.},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+month = mar,
+articleno = {43},
+numpages = {26},
+keywords = {Internet-of-Things, Privacy, Smart Home}
+}
+
+@INPROCEEDINGS {xiedryad2023,
+author = { Xie, Guorui and Li, Qing and Lin, Jiaye and Antichi, Gianni and Zhao, Dan and Yuan, Zhenhui and Li, Ruoyu and Jiang, Yong },
+booktitle = { 2023 IEEE 31st International Conference on Network Protocols (ICNP) },
+title = {{ Dryad: Deploying Adaptive Trees on Programmable Switches for Networking Classification }},
+year = {2023},
+volume = {},
+ISSN = {},
+pages = {1-11},
+abstract = { Decision trees (DT) have been used for high-speed networking classification on programmable switches. Most DT solutions, however, are static and cannot be deployed once the switch resource changes. In this paper, we propose Dryad to fast reprogram tree models when resource budgets change. In Dryad, we first develop a large and accurate “one-training-for-all“ DT (ODT) that can be quickly resized without computational retraining. ODTs are deployed in switches using a progressive search algorithm that searches the adaptations according to their resources. To achieve high accuracy and low packet latency, the adaptation leverages 1) innovative hard and soft pruning methods to compress the ODT rapidly with minimal performance loss; and 2) P4 scaling operations of match-action table arrangement and joint range-ternary match, which allow the switch to accommodate a larger (i.e., more accurate) ODT. Finally, an ODTCompiler is proposed to automatically convert the adapted ODT into a P4 program and then install it. Experimental results on three commodity switches under different resource scenarios show that Dryad achieves a higher classification F1-score (3.78 % higher), and completes the adaptation 161 × faster than other solutions. },
+keywords = {Adaptation models;Protocols;Adaptive systems;High-speed networks;Computational modeling;Decision trees},
+doi = {10.1109/ICNP59255.2023.10355629},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICNP59255.2023.10355629},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Oct}
+
+
+@article{xiaoiknow2023,
+author = {Xiao, Jingyu and Zou, Qingsong and Li, Qing and Zhao, Dan and Li, Kang and Weng, Zixuan and Li, Ruoyu and Jiang, Yong},
+title = {I Know Your Intent: Graph-enhanced Intent-aware User Device Interaction Prediction via Contrastive Learning},
+year = {2023},
+issue_date = {September 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {3},
+url = {https://doi.org/10.1145/3610906},
+doi = {10.1145/3610906},
+abstract = {With the booming of smart home market, intelligent Internet of Things (IoT) devices have been increasingly involved in home life. To improve the user experience of smart homes, some prior works have explored how to use machine learning for predicting interactions between users and devices. However, the existing solutions have inferior User Device Interaction (UDI) prediction accuracy, as they ignore three key factors: routine, intent and multi-level periodicity of human behaviors. In this paper, we present SmartUDI, a novel accurate UDI prediction approach for smart homes. First, we propose a Message-Passing-based Routine Extraction (MPRE) algorithm to mine routine behaviors, then the contrastive loss is applied to narrow representations among behaviors from the same routines and alienate representations among behaviors from different routines. Second, we propose an Intent-aware Capsule Graph Attention Network (ICGAT) to encode multiple intents of users while considering complex transitions between different behaviors. Third, we design a Cluster-based Historical Attention Mechanism (CHAM) to capture the multi-level periodicity by aggregating the current sequence and the semantically nearest historical sequence representations through the attention mechanism. SmartUDI can be seamlessly deployed on cloud infrastructures of IoT device vendors and edge nodes, enabling the delivery of personalized device service recommendations to users. Comprehensive experiments on four real-world datasets show that SmartUDI consistently outperforms the state-of-the-art baselines with more accurate and highly interpretable results.},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+month = sep,
+articleno = {136},
+numpages = {28},
+keywords = {Contrastive Learning, Graph Neural Networks, Human Device Interaction, Smart Home}
+}
+
