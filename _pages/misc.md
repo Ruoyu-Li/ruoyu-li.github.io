@@ -2,6 +2,9 @@
 layout: page
 title: Misc
 permalink: /misc/
+description:
+nav: true
+nav_order: 3
 ---
 
 ## Awards

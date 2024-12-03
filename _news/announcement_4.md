@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I defended my Ph.D. dissertation!
+I defend my Ph.D. dissertation "Data-Driven Network Traﬀic Monitoring towards IoT Cyberattacks"!
