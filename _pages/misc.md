@@ -26,6 +26,7 @@ permalink: /misc/
 * IEEE Internet of Things Journal (IoT-J)
 * Computer Networks
 
-## Membership
+## Membership:
+
 * IEEE Member
 * CCF Member
