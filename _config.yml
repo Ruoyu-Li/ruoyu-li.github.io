@@ -229,6 +229,7 @@ include:
   - _pages/about.md
   - _pages/publications.md
   - _pages/misc.md
+  - _pages/404.md
 exclude:
   - bin/
   - CONTRIBUTING.md
