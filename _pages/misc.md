@@ -40,6 +40,8 @@ nav_order: 3
 * IEEE Member
 * CCF Member
 * Executive Committee Member, CCF Internet Technical Committee
+* CCF Internet of Things Committee Member
+* CCF Networking and Data Communication Committee Member
 
 ## Hobbies
 

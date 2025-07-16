@@ -92,6 +92,53 @@ abstract = {In the past ten years, the source of DDoS has migrated to botnets co
 
 # conference paper
 
+@inproceedings{DBLP:conf/usenix/LiuY0XZFL024,
+  author       = {Duan, Guanglin and
+                  Huang, Yucheng and
+                  Zhang, Zhengxin and
+                  Li, Qing and
+                  Zhao, Dan and
+                  Meng, Zili and
+                  Kutscher, Dirk and
+                  Li, Ruoyu and
+                  Jiang, Yong and
+                  Xu, Mingwei},
+  title        = {Learning-Enhanced High-Throughput Pattern Matching Based on Programmable Data Plane},
+  booktitle    = {Proceedings of the {USENIX} Annual Technical Conference},
+  year         = {2025},
+  pdf          = {https://www.usenix.org/system/files/atc25-duan-guanglin.pdf},
+  location = {BOSTON, USA},
+  month = Jul,
+  bibtex_show={true},
+  abbr={ATC '25},
+  abstract = {Pattern matching is critical in various network security applications. However, existing pattern matching solutions struggle to maintain high throughput and low cost in the face of growing network traffic and increasingly complex patterns. Besides, managing and updating these systems is labor intensive, requiring expert intervention to adapt to new patterns and threats. In this paper, we propose Trochilus, a novel framework that enables high-throughput and accurate pattern matching directly on programmable data planes, making it highly relevant to modern large-scale network systems. Trochilus innovated by combining the learning ability of model inference with the high-throughput and cost-effective advantages of data plane processing. It leverages a byte-level recurrent neural network (BRNN) to model complex patterns, preserving expert knowledge while enabling automated updates for sustained accuracy. To address the challenge of limited labeled data, Trochilus proposes a semi-supervised knowledge distillation (SSKD) mechanism, converting the BRNN into a lightweight, data-plane-friendly soft multi-view forest (SMF), which can be efficiently deployed as match-action tables. Trochilus minimizes the need for expensive TCAM through a novel entry cluster algorithm, making it scalable to large network environments. Our evaluations show that Trochilus achieves multi-Tbps throughput, supports various pattern sets, and maintains high accuracy through automatic updates.}
+}
+
+@inproceedings{zouqueryattack2025,
+  author       = {Zou, Qingsong and
+                  Xiao, Jingyu and
+                  Li, Qing and
+                  Yan, Zhi and
+                  Wang, Yuhang and
+                  Xu, Li and
+                  Wang, Wenxuan and
+                  Gao, Kuofeng and
+                  Li, Ruoyu and
+                  Jiang, Yong},
+  title        = {QueryAttack: Jailbreaking Aligned Large Language Models Using Structured Non-natural Query Language},
+  booktitle    = {Proceedings of the 63rd Annual Meeting of the Association for Computational
+                  Linguistics},
+  year         = {2025},
+  pdf          = {https://arxiv.org/pdf/2502.09723},
+  location = {Vienna, Austria},
+  month = Jul,
+  bibtex_show={true},
+  abbr={ACL '25},
+  abstract = {Recent advances in large language models (LLMs) have demonstrated remarkable potential in the field of natural language processing. Unfortunately, LLMs face significant security and ethical risks. Although techniques such as safety alignment are developed for defense, prior researches reveal the possibility of bypassing such defenses through well-designed jailbreak attacks. In this paper, we propose QueryAttack, a novel framework to examine the generalizability of safety alignment. By treating LLMs as knowledge databases, we translate malicious queries in natural language into structured non-natural query language to bypass the safety alignment mechanisms of LLMs. We conduct extensive experiments on mainstream LLMs, and the results show that QueryAttack not only can achieve high attack success rates (ASRs), but also can jailbreak various defense methods. Furthermore, we tailor a defense method against QueryAttack, which can reduce ASR by up to 64% on GPT-4-1106.}
+}
+
+Qingsong Zou, Jingyu Xiao, Qing Li, Zhi Yan, Yuhang Wang, Li Xu, Wenxuan Wang, Kuofeng Gao, Ruoyu Li, Yong Jiang
+
 @inproceedings{zhangdissect2024,
  author = {Zhang*, Yu and Li*, Ruoyu and Wu, Nengwu and Li, Qing and Lin, Xinhan and Hu, Yang and Li, Tao and Jiang, Yong},
  booktitle = {Proceedings of Advances in Neural Information Processing Systems},
