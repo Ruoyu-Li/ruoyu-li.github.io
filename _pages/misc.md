@@ -7,8 +7,14 @@ nav: true
 nav_order: 3
 ---
 
+## Funds
+
+* Young Scientist Fund of the National Natural Science Foundation of China (国自然青年科学基金C类), 2026-2028
+* Natural Science Foundation of Guangdong Province (广东省自然科学基金面上项目), 2026-2028
+
 ## Awards
 
+* Outstanding Doctoral Dissertation Award of CCF Internet Technical Committee, 2025
 * SZCCF Outstanding Doctoral Dissertation Award, 2024
 * Student Travel Grant ($1000), IEEE ComSoc, INFOCOM 2024
 * Excellence Scholarship, Tsinghua University, 2023
@@ -27,8 +33,8 @@ nav_order: 3
 ### Reviewer:
 
 * Annual Conference on Neural Information Processing Systems (NeurIPS '25, '24)
-* International Conference on Machine Learning (ICML '25)
-* International Conference on Learning Representations (ICLR '25)
+* International Conference on Machine Learning (ICML '26, '25)
+* International Conference on Learning Representations (ICLR '26, '25)
 * International Conference on Artificial Intelligence and Statistics (AISTATS '25)
 * IEEE Transactions on Information Forensics and Security (TIFS)
 * IEEE Transactions on Dependable and Secure Computing (TDSC)
