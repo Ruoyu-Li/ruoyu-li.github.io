@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was temporarily assigned to the Ministry of Science and Technology. See you in Beijing.
+I am temporarily assigned to the Ministry of Science and Technology of PRC. See you in Beijing.

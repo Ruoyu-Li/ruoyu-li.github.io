@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I get funded by the Natural Science Foundation of Guangdong Province!
+I get funded by the Natural Science Foundation of Guangdong Province (广东省自然科学基金面上项目)!
