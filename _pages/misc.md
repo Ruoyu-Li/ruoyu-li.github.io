@@ -10,7 +10,9 @@ nav_order: 3
 ## Funds
 
 * Young Scientist Fund of the National Natural Science Foundation of China (国自然青年科学基金C类), 2026-2028
-* Natural Science Foundation of Guangdong Province (广东省自然科学基金面上项目), 2026-2028
+* Guangdong Basic and Applied Basic Research Foundation (广东省自然科学基金面上项目), 2026-2028
+* Shenzhen Research Start-up Fund for Newly-Recruited High-End Talents (深圳市新引进高端人才科研启动项目), 2026-2028
+* Shenzhen University Young Faculty Start-up Fund (深圳大学青年教师科研启动经费), 2025-2028
 
 ## Awards
 
