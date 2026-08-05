@@ -16,6 +16,7 @@ nav_order: 3
 
 ## Awards
 
+* GDSTA Young Scientific and Technological Talents Cultivation Program, 2026
 * Outstanding Doctoral Dissertation Award of CCF Internet Technical Committee, 2025
 * SZCCF Outstanding Doctoral Dissertation Award, 2024
 * Student Travel Grant ($1000), IEEE ComSoc, INFOCOM 2024
